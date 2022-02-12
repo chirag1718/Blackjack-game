@@ -1,0 +1,60 @@
+h1 {
+    text-align:center;
+    color: rgb(245, 178, 9);
+}
+
+body{
+    color: white;
+    text-align: center;
+    padding: 1em;
+    background: url(/images/table.png);
+    background-size: cover;
+    font-family: "Play";
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-1{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    border: none;
+    padding: 0.5em;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+.btn-2{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    border: none;
+    padding: 0.5em;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+
+.text-center{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    font-size: 15px;
+    padding-top: 100px;
+}
+
+/* @media (min-width: 240px) and (max-width:500px){
+
+} */
